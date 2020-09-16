@@ -173,8 +173,8 @@ let g:jedi#show_call_signatures = "0"
 map <F9> :NERDTreeToggle<CR> " File Browser Toggle
 map <C-A-r> :FormatCode<CR> " Format Code
 
-" Custom Functions
-command! MakeTags !ctags -R . " Create Tags
+" Create Tags
+command! MakeTags !ctags -R .
 
 " Debugging Helper
 command! Bullet :normal Oimport web_pdb; web_pdb.set_trace()<ESC> " Use for python debugging, pip install web_pdb
